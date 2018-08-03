@@ -12,10 +12,6 @@
 	margin:0 auto;
 	position: relative;
 }
-.top_pic :before{
-	display:table;
-	content:"";
-}
 .top_pic a img{
 	width:1920px;
 	margin:0 auto;
@@ -26,24 +22,20 @@
 	vertical-align:top;
 }
 .close{
-	right:4px;
-	top:4px; 
-	color:transparent;
-	z-index:4;
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right:0px;
+	top:10px; 
+	color:black;
+	z-index:999;
+	text-align: center;
+	line-height: 20px;	
 }
-.top i .iconfont icon-chacha{
-	width:20px;
-	height:20px;
-	font-size:20px;
-    font-family: home-font!important;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: .2px;
-    color:#BDBDBD;
-    cursor: pointer;
-}
-.top i .iconfont icon-chacha:before {
-    content: "\E65F";
+.close .icon-chacha{
+	font-size: 22px;
+	color: #ccc;
 }
 /* 顶部小广告部分结束 */
 
@@ -70,14 +62,12 @@
 }
 .box:before{
     display: table;
-    /*content: " ";*/
 }
 .logo{
 	float: left;
     height: 80px;
     overflow: hidden;
     display: block;
-    /*padding-top:15px;*/
 }
 .logo a{
 	position: relative;
@@ -99,16 +89,6 @@
 .word li{
 	float:left;
 }
-/*.word:after {
-    clear: both;
-    height: 0;
-    visibility: hidden;
-    display: block;
-}
-.word:before{
-    display: table;
-    content: " ";
-}*/
 .word a{
 	display:block;
 	float:left;
@@ -172,9 +152,25 @@
 	margin-left:27px;
 }
 /*导航栏部分结束*/
+
+/*轮播图部分开始*/
 .swiper-container {
 	width: 100%;
 	height: 480px;
 	box-sizing:border-box;
 	position:relative;
 }
+.swiper-wrapper{
+	width:1240px;
+	position: relative;
+	border-style:none;
+}
+.swiper-wrapper img{
+	margin-left:-960px;
+	position:relative;
+	overflow:hidden;
+	margin:auto;
+}
+
+
+/*轮播图部分结束*/
