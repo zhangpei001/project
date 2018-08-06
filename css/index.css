@@ -585,6 +585,8 @@ ul a:hover{
   width:100%;
   background-color: #fff;
 }
+
+
 /* 侧边栏部分 */
 .aside{
    width:125px;
@@ -635,13 +637,13 @@ ul a:hover{
 }
 .aside .p2{
   width: 50px;
-    text-align: center;
-      line-height: 50px;
-      font-weight: 600;
-      font-size: 16px;
-      box-sizing: border-box;
-      border-top: 1px solid #fff;
-      border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .aside p .icon-shangjiantou{
   font-size: 32px;
@@ -662,49 +664,6 @@ ul a:hover{
     line-height: 50px;
 }
 
-/*.aside_list_one .bus img{
-    background-color:#d8d8d8;
-}
-.bus{
-    width:50px;
-    height:50px;
-}
-.bus img{
-    width:46.6px;
-    height:40px;
-    display:block;
-    margin:0 auto;
-    color:#d8d8d8;
-}
-.app{
-    width:50px;
-    height:35px;
-    border-bottom:1px solid white;
-}
-.app span{
-    font-size:18px;
-    color:white;
-}
-.app :hover span{
-    color:gray;
-    background-image:url(images/weixin.png);
-}
-.fuhao{
-    width:50px;
-    height:50px;
-}
-.fuhao a{
-    padding-top:10px;
-}
-.fuhao a span{
-    color:white;
-    font-size:30px;
-}
-.fuhao :hover span{
-    color:gray;
-}
-
-*/
 /* footer部分 */
 .footer{
     z-index: 999;
@@ -733,12 +692,15 @@ ul a:hover{
     border-bottom:1px solid #eeeeee;
   }
 .sf{
-    padding-left:250px;
+    padding-left:20px;
     padding-top:40px;
 }
 .xiaotu :hover span {
     color:#3db1fa;
 } 
+.xiaotu a{
+  margin:0 25px;
+}
 .sf .xiaotu li{
     float:left;
     /* margin-top:10px; */
@@ -752,7 +714,7 @@ ul a:hover{
 .sf .xiaotu li a span{
     display:block;
     font-size:12px;
-    margin:0 5px;
+    margin:10px 5px;
 }
 .footer-row .ii-online{
     width: 20.2%;
@@ -813,7 +775,7 @@ ul a:hover{
 .footer-meizu{
     width:1024px;
     height:18px;
-    padding-left:200px;
+    padding-left:10px;
 }
 .footer-meizu .wenzi li a img{
     margin:0 5px;
@@ -826,7 +788,7 @@ ul a:hover{
     line-height:20px;
 }
 .footer-meizu .wenzi li a{
-    margin:0 5px;
+    margin:0 10px;
     font-size: 12px;
 }
 .wenzi :hover a{
@@ -835,7 +797,7 @@ ul a:hover{
 .bottom{
     width:1094px;
     height:34px;
-    padding-left:130px;
+    padding-left:10px;
     float:left;
 }
 .bottom_a :hover a{
@@ -844,25 +806,25 @@ ul a:hover{
 .bottom .bottom_a li{
     float:left;
     text-align:center;
-    line-height:20px;
+    line-height:35px;
 }
 .bottom .bottom_a li a{
-    margin:0 5px;
+    margin:0 12px;
     font-size: 12px;
 }
 .bottom .bottom_a li a img{
-    margin:0 5px;
+    margin:10px 5px;
     display:block;
     float:left;
 }
 .bottom .bottom_a li a span img{
     float:right;
-    margin:0 5px;
+    margin:10px 5px;
 }
 .tu{
     width:132px;
     height:40px;
-    padding-left:1000px;
+    padding-left:1110px;
 
 }
 .tu_a li{
