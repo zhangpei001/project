@@ -760,7 +760,8 @@
 <script src="js/navChange.js"></script>
   <script>
     $(function () {
-   
+      
+      //轮播图部分
       var slider1 = new Slider();
       var doc_h = $(document.body).width();
 
@@ -775,7 +776,10 @@
         w: doc_h,
         h: 760
       });
-    // 鼠标划过app这个盒子改变图片的top 
+
+
+      // 侧边栏部分开始
+      // 鼠标划过app这个盒子改变图片的top 
       $("#app").mouseover(function(){
         $("#ma").animate({top:'0px'});
         $("#app").css("background","#515151");
@@ -800,6 +804,7 @@
       $("#ma").hover(function () {
        $("#app").stop(false,true).slideToggle(500);
      });
+      // 侧边栏部分结束
 
 
     });

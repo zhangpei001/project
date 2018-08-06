@@ -1,27 +1,26 @@
 {
-  "name": "meizu",
+  "name": "project",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangpei001/MEIZU.git"
+    "url": "git+https://github.com/zhangpei001/project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhangpei001/MEIZU/issues"
+    "url": "https://github.com/zhangpei001/project/issues"
   },
-  "homepage": "https://github.com/zhangpei001/MEIZU#readme",
+  "homepage": "https://github.com/zhangpei001/project#readme",
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.5.0",
-    "gulp-less": "^4.0.1",
     "gulp-uglify": "^3.0.1"
-  },
-  "dependencies": {},
-  "description": ""
+  }
 }

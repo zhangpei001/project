@@ -173,4 +173,417 @@
 }
 
 
+.box_a {
+	width: 1000px;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	top: -480px;
+	z-index: 999;
+	margin-left:50px;
+}
+
+.nav_left {
+	width: 200px;
+	height: 480px;
+	background: #FF0036;
+}
+
+.nav_left ul {
+	width: 100%;
+	height: auto;
+	padding-bottom: 5px;
+}
+
+.nav_left ul li {
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.nav_left ul li span {
+	padding-left: 10px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	background:#eee;
+	color:black;
+}
+
+.nav_left ul li span:hover {
+	color:gray;
+	background: #FFFFFF;
+}
+
+.nav_right {
+	width: 800px;
+	height: 480px;
+	position: absolute;
+	margin-left: 200px;
+	top: 0px;
+}
+
+.sub {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 480px;
+	background: #FFFFFF;
+	padding: 10px 0px;
+}
+
+.sub dl {
+	overflow: hidden;
+	padding: 0px 0px 10px 0px;
+}
+
+.sub dt {
+	width: 100px;
+	float: left;
+	display: block;
+	position: relative;
+	clear: left;
+}
+
+.sub dt a {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sub dt i {
+	width: 4px;
+	right: 12px;
+	top: 2px;
+	font-size: 14px;
+	position: absolute;
+	font-style: normal;
+}
+
+.sub dd {
+	width: 680px;
+	float: left;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding-right: 20px;
+	border-bottom: 1px dashed #E3E3E3;
+}
+
+.sub dd a {
+	font-size: 14px;
+	float: left;
+	color: #666;
+	padding: 0 10px;
+	margin: 4px 0px 10px 0px;
+	text-decoration: none;
+	cursor: pointer;
+	border-left: 1px solid #E3E3E3;
+}
+
+.sub dd a:hover {
+	color: #FF0036;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
 /*轮播图部分结束*/
+
+
+/*以旧换新部分开始*/
+.pic{
+	width:100%;
+	height:140px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:6px;
+	padding-bottom:25px;
+}
+.pic_one{
+	width:1240px;
+	margin:0 auto;
+}
+.m{
+	margin-top: 6px;
+    height: 140px;
+    overflow: hidden;
+    width: 1240px;
+    margin: 0 auto;
+}
+.m_ma{
+	margin-left: 0;
+	width:244px;
+	height:100%;
+	float:left;
+	padding-top:15px;
+}
+.m_ma a{
+	float: left;
+    display:block;
+    width: 122px;
+    height: 40px;
+    text-align: center;
+    color:black;
+    font-size: 12px;
+    padding: 15px 0;
+    transition: color .5s;
+}
+.m_ma a span{
+	display:block;
+	margin-top:5px;
+}
+.m_ma a:hover i{
+	color:gray;
+}
+.m_ma a:hover span{
+	color:gray;
+}
+.meilan{
+	float: left;
+    width: 244px;
+    height: 100%;
+    margin-left: 5px;
+}
+.meilan a{
+	display: block;
+    width: 244px;
+    height: 100%;
+    background-color: transparent;
+}
+.meilan a img{
+	width: 100%;
+    height: 100%;
+    border-style: none;
+    vertical-align: top;
+}
+
+/*以旧换新部分结束*/
+
+
+/*  热品推荐部分  */
+.goods{
+  width:1240px;
+  height:460px;
+  margin:0 auto;
+  background-color:#f8f8f8;
+  overflow:hidden;
+  padding-left:3px;
+  margin-bottom:5px;
+  margin-top:10px;
+}
+.words_remai{
+  height:45px;
+  background-color:#f8f8f8;
+}
+.words_remai h3{
+  color:#515151;
+  font-size:30px;
+  line-height: 45px; 
+}
+
+.center{
+  width:100%;
+  height:450px;
+  display: flex;
+  margin-top: 10px;
+}
+.center_onea{
+  width:247px;
+  height:400px;
+  /*margin-left:50px;*/
+  background-color:#fff;
+  border:1px solid #eee;
+}
+.center_one{
+  width:247px;
+  height:400px;
+  /*margin-left: 10px;*/
+  background-color:#fff;
+  border:1px solid #eee;
+}
+.center_one:last-child{
+  border:1px solid #eee;
+}
+.center a{
+  width:247px;
+  height:300px;
+  display:block;
+}
+.center a img{
+  width:115px;
+  height:230x;
+  margin:0 auto;
+  padding-top:30px;
+}
+.center_two{
+  width:115px;
+  height:80x;
+  display:block;
+  text-align: center;
+  margin-left:70px;
+  line-height:22px;
+}
+.goods .center_two .name {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 2px;
+    display:block;
+}
+.goods .center_two .time {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 2px;
+    display:block;
+    background-color:red;
+    width:60px;
+    /*padding-left:50px;*/
+    text-align:center;
+    margin:0 auto;
+}
+.goods .center_two .price{
+    color: #cc0000;
+    font-size: 16px;
+    margin-bottom: 2px;
+    display:block;
+}
+
+.center_a{
+  width:303px;
+  height:400px;
+  display: flex;
+  margin-top: 10px;
+}
+.center_a a{
+  width:303px;
+  height:266px;
+  display:block;
+}
+.center_a a img{
+  width:115px;
+  height:230x;
+  margin:0 auto;
+  padding-top:30px;
+}
+.goods .center_onea:hover {
+    -webkit-box-shadow:0px 0px 10px #ddd;
+}
+.goods .center_one:hover {
+    -webkit-box-shadow:0px 0px 10px #ddd;
+}
+
+
+/*<!-- 领劵立减50元部分部分 -->*/
+.juan{
+	width:100%;
+	height:120px;
+	margin:0 auto;
+	background-color: rgb(255,255,255);
+	overflow: hidden;
+	position: relative;
+}
+.juan_pic{
+	width:1240px;
+	margin:0 auto;
+	position: relative;
+}
+.juan_pic a img{
+	/*width:1920px;*/
+	margin:0 auto;
+	margin-left:-621px;
+	position:relative;
+	left:50%;
+	border-style:none;
+	vertical-align:top;
+	margin-top: 30px;
+}
+
+
+
+
+/* 侧边栏部分 */
+.aside{
+   width:125px;
+   height:150px;
+   right:-75px;
+   position:fixed;
+   background-color:#d8d8d8;
+   /* z-index: 9999; */
+}
+.aside .er{
+  width: 202px;
+  height: 245px;
+  position: relative;
+  left: -202px;
+  top: -296px;
+  overflow: hidden;
+  
+}
+.aside .er img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 246px;
+}
+.aside p{
+  width: 100%;
+  height: 50px;
+  
+}
+.aside .p1{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.aside .p1:hover{
+  left: -75px;
+  top: 0;
+  transition: 0.5s;
+}
+.aside p:hover{
+  background-color: #515151;
+}
+.aside .p3{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.aside .p2{
+  width: 50px;
+    text-align: center;
+      line-height: 50px;
+      font-weight: 600;
+      font-size: 16px;
+      box-sizing: border-box;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+}
+.aside p .icon-shangjiantou{
+  font-size: 32px;
+}
+.aside p i{
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height: 50px;
+  font-size: 26px;
+  text-align: center;
+  float: left;
+}
+.aside p span{
+  display: block;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+
