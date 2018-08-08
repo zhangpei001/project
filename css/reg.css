@@ -20,7 +20,7 @@
 .header a{
 	float: left;
     height: 20px;
-    width: 110px;
+    width: 150px;
     overflow: hidden;
     display: block;
     color: #515151;
@@ -32,12 +32,13 @@
 	height:20px;
 	display:block;
 }
-.login{
-	position: relative;
-}
+
 /*顶部logo部分*/
 
 /*banner图加账号登录部分 */
+.login{
+    position: relative;
+}
 .banner{
 	background:#fff;
 	position: relative;
@@ -48,7 +49,7 @@
 
 .bigbox{
 	width:368px;
-	height: 360px;
+	height: 390px;
 	right: 220px;
     top: 14%;
     position: absolute;
@@ -66,14 +67,10 @@
     border-radius: 2px;
 }
 .title{
-	/*margin-top:-20px;*/
     width: 300px;
     text-align: center;
     display:block;
     float:left;
-}
-.title a:hover span{
-	color:black;
 }
 .title a{
 	display:block;
@@ -81,7 +78,7 @@
 	height:24px;
 	color: #7f7f7f;
 	text-decoration: none;
-	float:left;
+	margin-left:70px;
 }
 .title a span{
 	font-size:18px;
@@ -142,19 +139,23 @@
     color: #474747;
     margin-left: 5px;
 }
+.huoqu i .icon-icon{
+    display:block;
+    width: 20px;
+    height: 20px;
+    top: 11px;
+    left:12px;
+    float:left;
+}
 .huoqu:hover{
 	border: 1px solid #32a5e7;
 }
-.huoqu input{
-	line-height: 22px;
+.huoqu .huoqu_one{
+	line-height:45px;
     padding: 14px 0;
     height: 18px;
-    border-right: 1px solid #DDD;
     color: #909090;
-}
-.huoqu_one{
-	float:right;
-	margin-top:-35px;
+    margin-left: 35px;
 }
 
 .denglu{
@@ -165,6 +166,18 @@
 	transform: scale(1.1,1.1);
 	box-shadow: 0 0 10px #ddd;
 	cursor: pointer;
+}
+.denglu p{
+    width:298px;
+    height:20px;
+    color: #515151;
+    font-size:12px;
+    line-height:28px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.denglu p span{
+    color: #32a5e7;
 }
 .denglu a{
 	width: 300px;
@@ -185,18 +198,11 @@
 	height:19px;
 	margin-bottom: 5px;
 	margin-left: 5px;
-	margin-top: 40px;
+	margin-top: 90px;
 }
 .zhuce_one{
 	color: #32A5E7;
 	font-size: 14px;
-}
-.zhuce_two{
-	float:right;
-	color: #32A5E7;
-	font-size: 14px;
-	margin-right: 60px;
-    margin-top: -15px;
 }
 /*banner图加账号登录部分 */
 
