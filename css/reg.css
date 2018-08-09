@@ -71,6 +71,7 @@
     text-align: center;
     display:block;
     float:left;
+    margin-top: -70px
 }
 .title a{
 	display:block;
@@ -200,7 +201,7 @@
 	margin-left: 5px;
 	margin-top: 90px;
 }
-.zhuce_one{
+.zhuce .zhuce_one{
 	color: #32A5E7;
 	font-size: 14px;
 }

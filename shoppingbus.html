@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- 顶部logo部分 -->
-<div class="header">
+<div class="header_one">
 
   <div class="header_a">	
 	<a href="javascript:;">
@@ -33,19 +33,20 @@
   
   <div class="header_c">
   	 <a href="javascript:;">我的订单</a>
-  	 <a href="javascript:;">登录</a>
-  	 <a href="javascript:;">注册</a>
+  	 <a href="login.html">登录</a>
+  	 <a href="reg.html">注册</a>
   </div>  
 </div>
 <!-- 顶部logo部分结束-->
 
 <!-- 商品部分开始-->
+	
 	<div class="header">
 		<div class="head_left">
 			<label>
 				<input type="checkbox" class="checkAll" ><span>全选</span>
 			</label>
-			<a href="javascript:;">商品</a>
+			<a href="javascript:;" style="color:black;margin:-30px 0 0 20px">商品</a>
 		</div>
 		<div class="head_right">
 			<a href="javascript:;">单价(元)</a>
@@ -55,103 +56,103 @@
 		</div>
 
 	</div>
-	<div class="nav">
-			<!-- 	<input type="checkbox" id="checkedAll" >
- -->			<a href="javascript:;">魅族</a>
+	<!-- 商品展示 -->
+	<div class="nav">		
+ 		<a href="javascript:;">魅族</a>
 	</div>
 	<div class="content">
 		<div class="con_head"></div>
-		<div class="con">
+		<div class="con" id="con_a">
 			<div class="select">
 				<input type="checkbox" class="checkgoods">
 			</div>
 			<div class="goodlist">
 				<div class="good_top">
 					<div class="good_t_l">
-						<a href="javascript:;"><img src="images/abc.jpg"></a>
+						<a href="javascript:;"><img src="images/abc.jpg" title="MEIZU R11"></a>
 						<div class="word">
-							<h3>OPPO R11 全网通4G+64G </h3>
+							<h3>MEIZU R11 全网通4G+64G </h3>
 							<h3>支持7天无理由退货</h3>
 							<h3>选包装</h3>
 						</div>
 						<div class="color">
-							<p>颜色：玫瑰金色</p>
+							<p>颜色：绚丽红</p>
 							<p>尺码：全网通</p>
 						</div>
 					</div>
 					<div class="good_t_r">
-						<div class="single">￥<span>2799.00</span></div>
+						<div class="single">￥<span>799.00</span></div>
 						<div class="number">
 							<a href="javascript:;" class="min">-</a>
 							<input type="text" value="1" class="vals">
 							<a href="javascript:;" class="add">+</a>
 						</div>
-						<div class="sum">￥<span>2799.00</span></div>
+						<div class="sum">￥<span>799.00</span></div>
 						<a href="javascript:;" class="delete">删除</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="con">
+		<div class="con" id="con_b">
 			<div class="select">
 				<input type="checkbox" class="checkgoods">
 			</div>
 			<div class="goodlist">
 				<div class="good_top">
 					<div class="good_t_l">
-						<a href="javascript:;"><img src="images/abcd.png"></a>
+						<a href="javascript:;"><img src="images/abcd.png" title="MEIZU 8"></a>
 						<div class="word">
-							<h3>Apple iPhone8 A(1863) 64GB </h3>
+							<h3>MEIZU 8 A(1863) 64GB </h3>
 							<h3>支持7天无理由退货</h3>
 							<h3>选包装</h3>
 						</div>
 						<div class="color">
-							<p>颜色：金色</p>
+							<p>颜色：玫瑰金</p>
 							<p>尺码：64GB</p>
 						</div>
 					</div>
 					<div class="good_t_r">
-						<div class="single">￥<span>5888.22</span></div>
+						<div class="single">￥<span>1888.00</span></div>
 						<div class="number">
 							<a href="javascript:;" class="min">-</a>
 							<input type="text" value="1" class="vals">
 							<a href="javascript:;" class="add">+</a>
 						</div>
-						<div class="sum">￥<span>5888.22</span></div>
-						<a href="javascript:;" class="delete">删除</a>
+						<div class="sum">￥<span>1888.00</span></div>
+						<a href="javascript:;" class="delete" id="delete_a">删除</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="con">
+		<div class="con" id="con_c">
 			<div class="select">
 				<input type="checkbox" class="checkgoods">
 			</div>
 			<div class="goodlist">
 				<div class="good_top">
 					<div class="good_t_l">
-						<a href="javascript:;"><img src="images/abcde.png"></a>
+						<a href="javascript:;"><img src="images/abcde.png" title="MEIZU R11"></a>
 						<div class="word">
-							<h3>OPPO R11 全网通4G+64G </h3>
+							<h3>MEIZU R11 全网通4G+64G </h3>
 							<h3>支持7天无理由退货</h3>
 							<h3>选包装</h3>
 						</div>
 						<div class="color">
-							<p>颜色：玫瑰金色</p>
+							<p>颜色：深邃蓝</p>
 							<p>尺码：全网通</p>
 						</div>
 					</div>
 					<div class="good_t_r">
-						<div class="single">￥<span>2799.00</span></div>
+						<div class="single">￥<span>1799.00</span></div>
 						<div class="number">
 							<a href="javascript:;" class="min">-</a>
 							<input type="text" value="1" class="vals">
 							<a href="javascript:;" class="add">+</a>
 						</div>
-						<div class="sum">￥<span>2799.00</span></div>
-						<a href="javascript:;" class="delete">删除</a>
+						<div class="sum">￥<span>1799.00</span></div>
+						<a href="javascript:;" class="delete" id="delete_b">删除</a>
 					</div>
 				</div>
 			</div>
@@ -159,16 +160,203 @@
 	</div>
 
 
-
-	<div class="foot">
-		<div class="foo_left">
+	<!-- 全选部分 -->
+	<div class="all">
+		<div class="all_left">
 			<label><input type="checkbox" class="checkAll">全选</label>
 		</div>
-		<div class="foo_right">
-			<a href="javascript:;" class="already">已选择<span>0</span>件商品</a>
+		<div class="all_right">
+			<a href="javascript:;" class="already">已选择<span>0</span>件</a>
 			<p class="total">总价：￥<span>0.00</span></p>
 			<a href="javscript:;" class="checkout">去结算</a>
 		</div>
 	</div>
 
 <!-- 商品部分结束-->
+
+
+
+<!-- footer部分开始 -->
+<!--footer begin-->
+<div class="footer">
+        <div class="footer-wrap">
+          <div class="footer-row">
+            <div class="sf">
+              <ul class="xiaotu">
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao1.png"/>
+                    <span>全场顺丰包邮</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao2.png"/>
+                    <span>100+城市次日送达</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao3.png"/>
+                    <span>7天无理由退货</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao4.png"/>
+                    <span>15天换货保障</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao5.png"/>
+                    <span>1年免费保修</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;">
+                    <img src="images/tubiao6.png"/>
+                    <span>上门快修</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+         
+            <div class="col-5-24 ii-online">
+              <ul class="call">
+                <li>
+                  <p class="hot24">周一至周日7:30-24:00</p>
+                </li>
+                <li>
+                  <div class="meizu-footer-phone">400-788-3333</div>
+                </li>
+                <li>
+                  <div>
+                    <button class="button">
+                        <span>24小时在线客服</span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>  
+        
+        <div class="footer-meizua">
+          <div class="footer-meizu">
+            <ul class="wenzi">
+              <li>
+                <a href="javascript:;">了解魅族&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">加入我们&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">联系我们&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">Flyme&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">魅族社区&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">天猫旗舰店&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">问题反馈&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">线上授权名单公示&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">出版物经营许可证&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="images/dow2.png"/>简体中文
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bottom">
+            <ul class="bottom_a">
+                <li>
+                  <a href="javascript:;">@2018 Meizu Telecom Equipment Co .,Ltd.all right reserved.</a>
+                </li>
+                <li>
+                  <a href="javascript:;">粤ICP备13003602号</a>
+                </li>
+                <li>
+                  <a href="javascript:;">合字B2-20180010号</a>
+                </li>
+                <li>
+                  <a href="javascript:;">营业执照</a>
+                </li>
+                <li>
+                  <a href="javascript:;">法律声明</a>
+                </li>
+                  <li class="dow">
+                    <a href="javascript:;">
+                      <img src="images/gong.png"/>
+                      <span>粤公安号备44049102496009号</span>
+                      <span>
+                        <img src="images/dow01.png"/>
+                        <img src="images/dow02.png"/>
+                        <img src="images/dow03.png"/>
+                      </span>
+                    </a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="tu">
+            <ul class="tu_a">
+              <li class="wb">
+                <a href="javascript:;">
+                  <img src="images/wb.png"/>
+                </a>
+              </li>
+              <li class="wx">
+              	<!-- <a class="weixin_a" href="javascript:;">
+              		<img src="images/weixin.png" />
+              	</a> -->
+                <a class="weixin_b" href="javascript:;">
+                  <img src="images/wx.png"/>
+                </a>
+              </li>
+              <li class="qq">
+                <a  href="javascript:;">
+                  <img src="images/qq.png"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+</div>
+</body>
+<!-- footer部分结束 -->
+<script src="js/jquery.js"></script>
+<script src="js/car.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>
+	//点击删除商品
+    $(".delete").click(function(){
+    $("#con_a").slideUp(500);
+    });
+
+    $("#delete_a").click(function(){
+    $("#con_b").slideUp(500);
+    });
+
+    $("#delete_b").click(function(){
+    $("#con_c").slideUp(500);
+    });
+
+    //点击微信图标出现二维码
+    $(".weixin_b").click(function(){
+    $(".weixin_a").show(500);
+    });
+</script>
+
