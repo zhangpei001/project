@@ -21,33 +21,36 @@
 	<!-- 登录部分 -->
 	<div class="login">
 		<div class="banner">
-			<img src="images/banner.jpg" title="Fly me" />
+			<img src="images/banner.jpg" title="Fly me"/>
 		</div>
 		
 	  <div class="bigbox">
 		
 		<!-- 验证码登录 -->	
-		<form class="mainFrom">
-			<div class="title">
-				<a href="product.html">
-					<span>账号登录</span>
-				</a>
-				<a  href="javascript:;">
-					<span style="color: #32A5E7">验证码登录</span>
-				</a>
-			</div>
-		</form>
+    <form class="mainFrom" method="post" action="php/StuSave.php">
+    	<div class="title">
+    		<a href="product.html">
+    			<span>账号登录</span>
+    		</a>
+    		<a href="javascript:;">
+    			<span style="color: #32A5E7">验证码登录</span>
+    		</a>
+    	</div>
 
-		<div class="haoma">
-			<div class="haoma_a">
-				<span class="haoma_b">
-					<input class="haoma_c" type="text" value="+86">
-					<i class="iconfont icon-angle-up"></i>
-				</span>
-				<input class="haoma_c" id="phoneId" placeholder="电话号码">
-				<span id="phoneMsg"></span>
-			</div>
-		</div>
+      <div class="haoma">
+        <div class="haoma_a">
+          <span class="haoma_b">
+            <input class="haoma_c" type="text" value="+86">
+            <i class="iconfont icon-angle-up"></i>
+          </span>
+          <input class="haoma_c" id="phoneId" placeholder="电话号码">
+          <span id="phoneMsg"></span>
+        </div>
+      </div>
+
+    </form>
+
+		
 
 		<div class="huoqu">
 			<input type="text" placeholder="验证码">

@@ -57,20 +57,18 @@
     border-radius: 2px;
 }
 .mainFrom{
-	/*position: absolute;*/
 	right: 220px;
     top: 14%;
     width: 298px;
     background-color: #FFF;
-    /*padding: 35px 35px 10px;*/
     border-radius: 2px;
 }
 .title{
-	/*margin-top:-20px;*/
     width: 300px;
     text-align: center;
     display:block;
     float:left;
+    margin-top: -70px;
 }
 .title a:hover span{
 	color:black;
@@ -80,7 +78,7 @@
 	width:140px;
 	height:24px;
 	color: #7f7f7f;
-	text-decoration: none;
+	text-decoration:none;
 	float:left;
 }
 .title a span{
@@ -92,7 +90,6 @@
 	margin-bottom: 20px;
 	border-radius: 2px;
 	width: 276px;
-    /*position: absolute;*/
     padding: 0px 10px;
     height: 46px;
     line-height: 22px;
@@ -101,7 +98,6 @@
     color: #474747;
     margin-top: 100px;
     margin-left: 5px;
-
 }
 .haoma:hover{
 	border: 1px solid #32a5e7;
